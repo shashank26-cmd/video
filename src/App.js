@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-
+import { AppContext } from './context/contextApi';
 
 function App() {
   return (
-  <div className=''> hello</div> 
+<AppContext>
+  <div>hello</div>
+</AppContext>
   );
 }
 
